@@ -1,12 +1,17 @@
 body {
   font-family: "Permanent Marker", cursive, sans-serif;
   background: whitesmoke;
-  color: red;
+  color: black;
+  margin: 20px;
+  background-image: url("https://i.pinimg.com/originals/72/18/e2/7218e261e63e04acc903df31ec88999c.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container {
   position: relative;
   font-family: "Permanent Marker", cursive;
+  
 }
 
 header.jumbotron {
@@ -19,7 +24,9 @@ header.jumbotron {
 p {
   font-family: "Permanent Marker", cursive;
   padding-top: 10px;
-  font-size: 18px;
+  font-size: 20px;
+  color:red;
+  text-align: center;
 }
 
 
@@ -36,9 +43,19 @@ h1 {
 
 h4 {
   font-family: "Permanent Marker", cursive;
-  color: red;
+  color: rgb(10, 2, 2);
   padding-right: 10px;
   padding-bottom: 10px;
+}
+
+#group-affiliations{
+  padding: 5px;
+  margin: 5px;
+}
+
+#relatives{
+  padding: 5px;
+  margin: 5px;
 }
 
 .marvel {
@@ -52,15 +69,38 @@ h4 {
   margin-top: 5px;
 }
 
-#movie-form {
-  text-align: right;
+#map {
+  height: 500px;
+  width: 100%;
+  max-width: 960px;
+  padding: 30px;
+  margin: 0 0 40px;
+  align-content: center;
 }
 
-input#movie-input {
-  color: black;
+html {
+  margin: 0;
+  padding: 0;
 }
 
-input#add-movie.btn,
-btn-deafult {
-  color: black;
+#superhero-form {
+  padding: 25px;
+
+}
+
+#map-form {
+    padding: 25px;
+}
+
+#description {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#add-superhero {
+  color: red;
+}
+
+#add-zipcode {
+    color: red;
 }
